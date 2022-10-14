@@ -30,7 +30,6 @@ function NotificationsScreen({navigation}) {
 const Drawer = createDrawerNavigator();
 
 function MyDrawer() {
-  console.log(Dimensions.get('window'));
   return (
     <Drawer.Navigator
       initialRouteName="Home"
